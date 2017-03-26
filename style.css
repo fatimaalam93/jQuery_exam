@@ -1,0 +1,145 @@
+.login_form{
+width:700px;
+margin:0px auto;
+padding-top:20px;
+}
+#login{
+border:1px solid #999;
+border-radius:2px;
+padding:35px 30px;
+font-size:16px;
+font-weight:bold;
+width:450px;
+margin-top:20px;
+margin-left: 13%;
+float:left;
+background: linen;
+}
+h3{
+text-align:center;
+font-size:26px;
+}
+input{
+width:100%;
+height:28px;
+margin:15px 0 25px 0;
+border:1px solid #999;
+border-radius:7px;
+padding:5px;
+}
+input[type=button]{
+background-color:#123456;
+border:1px solid white;
+font-family: 'Fauna One', serif;
+font-Weight:bold;
+font-size:18px;
+color:white;
+background: linen;
+}
+
+#btn1{
+width: 45%;
+height:33px;
+border:1px solid #999;
+border-radius:7px;
+padding:5px;
+}
+#btn2{
+margin-left: 40px;
+width: 45%;
+height:33px;
+border:1px solid #999;
+border-radius:7px;
+padding:5px;
+}
+
+/*PROFILE PAGE*/
+
+.profile_page{
+width:960px;
+margin:0px auto;
+padding-top:40px;
+text-align: center;
+font-size: 24px;
+color: black;
+}
+.all_content{
+border:1px solid #999;
+border-radius:2px;
+padding:35px 30px;
+margin-top:25px;
+background: linen;
+
+}
+#profile{
+font-weight:bold;
+width:850px;
+}
+
+.text-center{
+text-align: center;
+}
+.word-counter{
+width: 30%;
+margin-left: 0%;
+}
+textarea{
+width:100%;
+height:120px;
+border:1px solid #999;
+margin-top:20px;
+border-radius:11px;
+padding:5px;
+resize:none;
+background: linen;
+
+}
+#mid{
+overflow: none;
+
+}
+#change_bg{
+width:47%;	
+height: 160px;
+margin:25px 0 25px 0;
+float: left;
+}
+#datepicker{
+width:47%;	
+height: 160px;
+margin:20px 0 25px 0;
+float: right;
+color: black;	
+}
+#change{
+width: 100%;
+height:43px;
+margin:20px 0 25px 0;
+border:1px solid #999;
+border-radius:9px;
+background: linen;
+}
+#date{
+width:100%;
+height:30px;
+margin:25px 0 25px 0;
+border:1px solid #999;
+border-radius:9px;
+background: linen;
+color: black;
+text-align: center;
+}
+
+.parallax-window {
+min-height: 400px;
+background: transparent;
+}
+#tabs{
+	font-size: 18px;
+	text-align: left;
+	background-color: linen;
+}
+li{
+	font-size: 18px;
+	width: 25%;	
+}

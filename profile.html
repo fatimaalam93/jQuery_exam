@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PROFILE PAGE</title>
+
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	<style type="text/css">
+
+			.background_white{
+				background-color: linen;
+			}
+			.background_purple{
+				background-color: purple;
+			}
+			
+	</style>
+	
+	<div class="profile_page">
+
+	 	<div class="container">
+
+	 		<h3 class="text-center">Profile Page</h3>
+
+	 		<div class="all_content">
+
+		 		<div class="row" id="profile">
+		 			<div class="col-md-12">
+		 				<label >Text Area</label>
+		 				<textarea name="" id="alphabet-counter" class="full-width" rows="5" maxlength="200"></textarea>
+		 				<h6 id="alphabet-count"></h6>
+		 			</div>
+
+		 			<div class="row" id="mid">
+
+			 			<div class="col-md-6 background_white" id="change_bg">
+
+			 				<label >Change Background Color</label> <br>
+			 				<button id="change">Change Background</button>
+
+			 			</div>
+
+						<div class="col-md-6" id="datepicker">
+							<label >Datepicker</label> <br>
+							<input type="text" id="date" placeholder="Choose a Date">   
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="parallax-window" data-parallax="scroll" data-image-src="Water.jpg"></div>
+
+
+		 		<div class="tabs-jquery">
+
+		 			<h3 class="text-center">Tabs</h3>
+
+					<div class="row">
+					
+						<div class="col-md-12">
+
+							<div id="tabs">
+
+							  	<ul>
+								    <li><a href="#tabs-1">TAB 1</a></li>
+								    <li><a href="#tabs-2">TAB 2</a></li>
+								    <li><a href="#tabs-3">TAB 3</a></li>
+							  	</ul>
+
+							  	<div id="tabs-1">
+							    	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+							  	</div>
+
+							  	<div id="tabs-2">
+							    	<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" </p>
+							 	</div>
+
+							 	<div id="tabs-3">
+							    	<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+							  	</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+			
+				</div>
+
+			</div>
+
+	 	</div>
+
+	</div>
+
+
+
+ 	<!-- jquery -->
+	<script
+	src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+	crossorigin="anonymous"></script>	
+
+	<!-- jquery ui -->
+	<script
+	src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+	integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+	crossorigin="anonymous"></script>
+
+	<!-- parallax jquery -->
+	<script src="parallax.min.js"></script>
+
+	<script src="app.js"></script>
+
+</body>
+</html>
